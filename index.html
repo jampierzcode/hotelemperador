@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- search styles -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css"
+    />
+    <!-- swiper styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    
+
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Hotel emperador</title>
+  </head>
+  <body>
+    <header class="nav-header">
+      <div class="row-h">
+        <div class="ident-logo">
+          <img src="img/logohotel.png" class="logo-item" alt="" />
+        </div>
+        <nav class="menu-nav">
+          <ul class="links-menu">
+            <li class="item-nav"><a href="#">Inicio</a></li>
+            <li class="item-nav"><a href="#">Nosotros</a></li>
+            <li class="item-nav"><a href="#">Galeria</a></li>
+            <li class="item-nav"><a href="#">Habitaciones</a></li>
+            <li class="item-nav"><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="portada-home">
+      <div class="swiper portada">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="content-portada">
+              <h1 class="ta-center">Hotel Emperador Tacna</h1>
+              <p class="ta-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <!-- <button class="btn-porta">Reservas</button> -->
+            </div>
+            <img
+              src="https://itsalwayssunrisesomewhere.files.wordpress.com/2013/03/blog1.jpg"
+              alt=""
+              class="img-portada"
+            />
+          </div>
+          <!-- <div class="swiper-slide">
+            <div class="content-portada">
+              <h1 class="ta-center">Hotel Emperador Tacna</h1>
+              <p class="ta-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <button class="btn-porta">Reservas</button>
+            </div>
+            <img
+              src="https://img.resemmedia.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzL2ViOGZiNzBkLTQyMzItNDFmYi1iNDc5LWZmMTllM2JlNmY2Ny9lM2I3YzllOC00Y2UzLTQ4ZDUtODk2YS02MGRlNTQ1ZWJkODEuanBnIiwiYnJhbmQiOiJSRVNFTSIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODQwLCJoZWlnaHQiOjYzMCwiZml0IjoiY292ZXIifX19"
+              alt=""
+              class="img-portada"
+            />
+          </div> -->
+        </div>
+
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <!-- <div class="swiper-button-prev flechas-h"></div>
+        <div class="swiper-button-next flechas-h"></div> -->
+
+        <!-- If we need scrollbar -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+      </div>
+    </div>
+    <div class="container-search">
+      <span class="title-search">Que deseas hacer hoy?</span>
+      <div class="group-search">
+        <div class="box-group">
+          <input
+            id="date-ida"
+            class="input-item"
+            type="text"
+            name="daterange" placeholder="Fecha de Ida"
+          />
+        </div>
+        <div class="box-group">
+          <select class="js-example-basic-multiple input-item" name="states['habitaciones']" multiple="multiple">
+            <label for="">Hola</label>
+            <option value="AL">Habitacion matrimonial</option>
+            <option value="WY">Wyoming</option>
+          </select>
+        </div>
+        <div class="box-group">
+          <input
+            class="input-item"
+            type="text"
+            id="fecha"
+            placeholder="item active"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="section container">
+      <div class="row flex-w">
+        <div class="col-md">
+          <img
+            class="img-ctr-portada"
+            width="100%"
+            src="https://themesvila.com/themes-wp/safar/wp-content/uploads/2020/05/6.jpg"
+            alt=""
+          />
+          <!-- <img
+            width="100%"
+            src="https://hotelemperadortacna.com/assets/img/intro_section/1657674934.jpg"
+            alt=""
+          /> -->
+        </div>
+        <div class="col-md d-flex-c">
+          <div class="index-title-section">
+            <span class="ta-start">Vive experiencias</span>
+            <h1 class="ta-start">Every time</h1>
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
+            placeat saepe in possimus quasi! Sed nostrum animi praesentium
+            incidunt suscipit amet? Voluptate fuga fugit cumque id odio atque
+            earum perferendis!s
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="index-title-section mg-h">
+        <span class="ta-center">Nuestras Habitaciones</span>
+        <h1 class="ta-center">Destacadas</h1>
+      </div>
+      <!-- Slider main container -->
+      <div class="swiper habitaciones">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide habitaciones">
+            <a href="#" class="link-page">
+              <img
+                src="https://hotelemperadortacna.com/assets/img/rooms/1657295531.jpeg"
+                alt=""
+                class="img-slider img-slider-hab"
+              />
+              <div class="descripcion-slider">
+                <span class="type-hab">Habitación Matrimonial</span>
+                <div class="servicios-hab">Cama - Wifi - ...</div>
+                <span class="precio-hab">S/120.00</span>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide habitaciones">
+            <a href="#" class="link-page">
+              <img
+                src="https://hotelemperadortacna.com/assets/img/rooms/1657675812.jpeg"
+                alt=""
+                class="img-slider img-slider-hab"
+              />
+              <div class="descripcion-slider">
+                <span class="type-hab">Habitación Triple</span>
+                <div class="servicios-hab">Cama - Wifi - ...</div>
+                <span class="precio-hab">S/120.00</span>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide habitaciones">
+            <a href="#" class="link-page">
+              <img
+                src="https://hotelemperadortacna.com/assets/img/rooms/1657301020.jpeg"
+                alt=""
+                class="img-slider img-slider-hab"
+              />
+              <div class="descripcion-slider">
+                <span class="type-hab">Habitación Cuadruple</span>
+                <div class="servicios-hab">Cama - Wifi - ...</div>
+                <span class="precio-hab">S/120.00</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+      </div>
+    </div>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/jquery.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- search js -->
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"
+    ></script>
+
+    <script src="js/custom-fecha.js"></script>
+
+    <script src="js/custom-swiper.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="js/custom-select.js"></script>
+  </body>
+</html>
